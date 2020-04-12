@@ -156,7 +156,7 @@ namespace log4net.Core
 					LogLog.Debug(declaringType, "Security exception while trying to get caller stack frame. Error Ignored. Location Information Not Available.");
 				}
 			}
-#endif
+//#endif
 		}
 
 		/// <summary>
