@@ -83,7 +83,7 @@ namespace log4net.Core
 			m_methodName = NA;
 			m_fullInfo = NA;
 
-#if !(NETCF || NETSTANDARD1_3) // StackTrace isn't fully implemented for NETSTANDARD1_3 https://github.com/dotnet/corefx/issues/1797
+//#if !(NETCF || NETSTANDARD1_3) // StackTrace isn't fully implemented for NETSTANDARD1_3 https://github.com/dotnet/corefx/issues/1797
 			if (callerStackBoundaryDeclaringType != null)
 			{
 				try
